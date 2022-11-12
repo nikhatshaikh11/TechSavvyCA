@@ -1,0 +1,52 @@
+header {
+    /* height: 110vh; */
+    /* padding-top: 3rem; */
+    /* overflow: hidden; */
+}
+
+
+.header__container {
+    padding-top: 40px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    text-align: center;
+    height: 40vh;
+    width: 100vw;
+    position: relative;
+}
+
+.app-title {
+    color: var(--color-white);
+    font-size: 2.5rem;
+    padding: 2px;
+}
+
+/* -------------Scroll Down------------ */
+
+.scroll_down {
+    color: #0E0B16;
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ----------Media Queries(Medium sized devices)-----------*/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 40vh;
+    }
+}
+
+/* ----------Media Queries(Medium sized devices)-----------*/
+@media screen and (max-width: 600px) {
+    header {
+        height: 40vh;
+    }
+
+    .header__socials, .scroll_down {
+        display: none;
+    }
+}
