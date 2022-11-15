@@ -43,7 +43,7 @@ header {
 /* ----------Media Queries(Medium sized devices)-----------*/
 @media screen and (max-width: 600px) {
     header {
-        height: 40vh;
+        height: 35vh;
     }
 
     .header__socials, .scroll_down {

@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5 className='contact-heading'>Tell us about the softwares you use at your CA firm or send us your suggestions for improving TechSavvyCA!</h5>
+      <h5 className='contact-heading'>Contact Us</h5>
       <h2>Write to Us</h2>
 
       <div className="container contact__container">
@@ -29,15 +29,19 @@ const Contact = () => {
               <a href="mailto:zavian.in2020@gmail.com">Send a message</a>
           </article>
         </div>
+
+        <div>
+          <p>Tell us about the softwares you use at your CA firm or send us your suggestions for improving TechSavvyCA!</p>
+        </div>
         
         {/*END OF CONTACT OPTIONS*/}
 
-        <form ref={form} onSubmit={sendEmail}>
+        {/* <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder="Your Name / Firm's name" required/>
           <input type="email" name='email' placeholder='Your Email' required/>
           <textarea name="message" rows="7" placeholder='Your teck-stack (softwares you use and for what purpose)' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
-        </form>
+        </form> */}
       </div>
     </section>
   )
